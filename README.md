@@ -64,3 +64,21 @@ The model loads assumptions from `configs/base_case.yaml`, evaluates each strate
 Version 1 is a baseline proof-of-concept model. It uses annual demand and annual PV generation assumptions, so it does not yet capture hourly load-solar mismatch, grid import/export, curtailment, or battery dispatch.
 
 It also uses one representative rooftop PV technology and deterministic assumptions. Future versions will add hourly physical modelling, PV + ESS simulation, optimisation, sensitivity analysis, policy scenario comparison, and stakeholder-specific recommendations.
+
+## How to Run
+
+```powershell
+python -m venv .venv
+.\.venv\Scripts\activate
+pip install -r requirements.txt
+python main.py
+python -m pytest
+```
+
+## Key Results
+
+Recommended Version 1 strategy: Solar PV only
+NPV: SGD 1,388,436.70
+Emissions reduction: 20.00%
+Simple payback: 3.45 years
+Discounted payback: 4 years
