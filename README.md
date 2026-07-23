@@ -65,6 +65,8 @@ Version 1 is a baseline proof-of-concept model. It uses annual demand and annual
 
 It also uses one representative rooftop PV technology and deterministic assumptions. Future versions will add hourly physical modelling, PV + ESS simulation, optimisation, sensitivity analysis, policy scenario comparison, and stakeholder-specific recommendations.
 
+Version 1 evaluates emissions target achievement based on Year 1 annual generation; later versions will extend this to lifetime annual target compliance after PV degradation.
+
 ## How to Run
 
 ```powershell
