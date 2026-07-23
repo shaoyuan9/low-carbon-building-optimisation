@@ -1,7 +1,7 @@
 # A Modular Techno-Economic Optimisation Framework for Low-Carbon Electricity Strategies in Singapore Commercial Buildings
 
 ## Objective
-Develop a techno-economic decision-support model to identify the least-cost strategy for a Singapore commercial building owner to achieve at least 20% electricity-related emissions reduction.
+Develop a techno-economic decision-support model to identify the financially strongest target-meeting strategy for a Singapore commercial building owner to achieve at least 20% electricity-related emissions reduction.
 
 ## Version 1 Scope
 This version compares:
@@ -15,7 +15,7 @@ This version compares:
 - How much emissions reduction is required to reach 20%?
 - Can solar PV alone meet the target?
 - If not, how much renewable electricity purchase is required?
-- Which option has the lowest cost?
+- Which target-meeting strategy has the highest NPV?
 
 ## Version 1 Logic Flow
 Version 1 uses a configuration-driven workflow to compare four baseline strategies: grid electricity, renewable electricity purchase, rooftop solar PV, and solar PV with renewable electricity purchase.
