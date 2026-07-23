@@ -1,0 +1,33 @@
+# configs/base_case.yaml
+
+project:
+  name: low-carbon-building-optimisation
+  version: 1
+  target_reduction_percent: 0.20 #✅
+  project_lifetime_years: 25 #✅
+  discount_rate: 0.05 #✅
+
+building:
+  annual_electricity_demand_kwh: 2400000 #✅
+  rooftop_area_m2: 5000 # assumption! 
+
+grid:
+  electricity_price_sgd_per_kwh: 0.30 #✅
+  grid_emission_factor_kgco2_per_kwh: 0.40 #✅
+  electricity_price_escalation_rate_per_year: 0.00 # assumption!
+
+solar_pv:
+  technology_name: representative_commercial_rooftop_pv
+  pv_capex_sgd_per_kwp: 1200 #✅
+  pv_opex_fraction_of_capex_per_year: 0.01 #✅
+  pv_annual_yield_kwh_per_kwp: 1200 #✅
+  pv_degradation_rate_per_year: 0.005 #✅ 
+  area_required_m2_per_kwp: 5 #✅ 
+  pv_opex_escalation_rate_per_year: 0.00 # assumption!
+
+renewable_purchase:
+  renewable_premium_sgd_per_kwh: 0.03 
+  renewable_premium_escalation_rate_per_year: 0.00 
+
+baseline_analysis:
+  hybrid_pv_share_of_target: 0.50 # assumption!

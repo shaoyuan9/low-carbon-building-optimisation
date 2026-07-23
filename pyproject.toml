@@ -1,0 +1,9 @@
+[project]
+name = "solar-capstone"
+version = "0.1.0"
+description = "Solar techno-economic modelling project"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

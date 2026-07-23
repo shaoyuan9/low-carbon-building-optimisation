@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Test and tool caches
+.pytest_cache/
+.matplotlib_cache/
+.codex_spreadsheet_work/
+
+# Build/package artifacts
+build/
+dist/
+*.egg-info/
+
+# Local environment files
+.env
+.env.*
+
+# Excel temporary/lock files
+~$*.xlsx
+~$*.xls
+
+# Generated inspection/debug files
+*.inspect.ndjson
+
+# Personal/project-management files
+portfolio/
+Master_Project_Handbook.xlsx
+Version_Logs.xlsx
+venv activation steps.txt
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
